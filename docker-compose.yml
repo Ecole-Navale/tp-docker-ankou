@@ -1,10 +1,10 @@
 services:
  web:
-   image: vote-apache
+   image: vote-apache-ankou
    ports:
-     - "80:80"
+     - "8084:80"
 
  db:
-   image: vote-mysql
+   image: vote-mysql-ankou
    environment:
      MYSQL_ROOT_PASSWORD: P@ssw0rdEN24
