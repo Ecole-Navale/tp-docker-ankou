@@ -1,0 +1,10 @@
+services:
+ web:
+   image: vote-apache
+   ports:
+     - "80:80"
+
+ db:
+   image: vote-mysql
+   environment:
+     MYSQL_ROOT_PASSWORD: P@ssw0rdEN24
